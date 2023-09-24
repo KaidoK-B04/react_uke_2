@@ -1,0 +1,66 @@
+/* html {
+	background: url(../assets/gammel_trikken.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+body {
+	display: flex;
+	justify-content: center;
+	background-size: 100vw;
+	text-align: center;
+	margin: 0px;
+}
+
+#Section {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	height: 100vh;
+	min-width: 450px;
+	background-color: rgba(60, 59, 59, 0.7);
+}
+
+#Header {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: rgba(28, 95, 204, 0.7);
+	height: 100px;
+	width: 450px;
+}
+
+#Counter {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	height: 200px;
+	width: 450px;
+	
+}
+
+button, 
+#DecrementButton, 
+#IncrementButton {
+	border: 2px solid #ddd;
+	border-radius: 0px;
+	padding: 20px;
+	margin: 20px;
+	box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+	transition: transform 0.3s ease-in-out;
+}
+
+button:hover {
+	transform: scale(1.05);
+	filter: brightness(1.2) contrast(1);
+}
+
+#CountEl {
+	font-size: 60px;
+	margin: 0;
+	padding: 0;
+}
+ */

@@ -1,0 +1,136 @@
+:root {
+	font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+	line-height: 1.5;
+	font-weight: 400;
+	color-scheme: light dark;
+	color: rgba(252, 252, 252, 0.9);
+	background-color: #9fb6ae;
+
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-text-size-adjust: 100%;
+}
+
+html {
+	background: url(../assets/gammel_trikken.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+body {
+	display: flex;
+	justify-content: center;
+	background-size: 100vw;
+	text-align: center;
+	margin: 0px;
+}
+#Section {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	height: 100vh;
+	width: 450px;
+	background-color: rgba(49, 48, 48, 0.5);
+}
+.headerParent {
+	margin: 0;
+}
+.headerText {
+	background-color: rgba(28, 95, 204, 1);
+	width: 450px;
+	margin: 0;
+	/* border-bottom: 5px solid rgb(173, 68, 68); */
+}
+.headerText h1, h2{
+	margin: 0;
+	color: white;
+}
+
+#HeaderChild {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: rgb(255, 228, 49);
+	color: rgba(28, 95, 204, 1);
+	height: 100px;
+	width: 450px;
+	margin: 0;
+}
+
+#Counter {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	height: 200px;
+	width: 450px;
+	
+}
+
+button,
+#DecrementButton,
+#IncrementButton {
+	border: 2px solid #ffffff;
+	border-radius: 0px;
+	padding: 20px;
+	margin: 20px;
+	box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+	transition: transform 0.3s ease-in-out;
+}
+
+button:hover {
+	transform: scale(1.05);
+	filter: brightness(1.2) contrast(1);
+}
+
+#CountEl {
+	font-size: 60px;
+	margin: 0;
+	padding: 0;
+}
+#SaveEl {
+	color: rgb(186, 51, 11);
+	background-color: rgba(236, 242, 55, 0.818);
+	
+}
+#SaveButton {
+	margin: 0;
+	padding: 0;
+	width: 100px;
+	height: 100px;
+}
+
+form div{
+	display: flex;
+	justify-content: space-between;
+}
+
+.payCardList {
+	width: 400px;
+}
+.wingWheelLogo {
+	width: 194px;
+	opacity: 0.8;
+}
+.footerContainer {
+	background-color: rgba(0, 0, 0, 1);
+	width: 450px;
+}
+
+label {
+	color: white;
+	font-size: 1rem;
+	font-weight: bold;
+}
+#submitSection {
+	display: flex;
+	justify-content: flex-end;
+
+}
+.SubmitButton {
+	margin-right: 0;
+}
